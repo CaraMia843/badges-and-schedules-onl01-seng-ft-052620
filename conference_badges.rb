@@ -9,5 +9,5 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(attendees)
-
+  attendees.map.with_index(1) do |attendee, index|
 end
